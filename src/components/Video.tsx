@@ -1,4 +1,10 @@
-import { DiscordLogo, Lightning } from "phosphor-react";
+import {
+  CaretRight,
+  DiscordLogo,
+  FileArrowDown,
+  Lightning,
+} from "phosphor-react";
+import { ComplementaryCard } from "./ComplementaryCard";
 
 export function Video() {
   return (
@@ -29,8 +35,12 @@ export function Video() {
               />
 
               <div className="leading-relaxed">
-                <strong className="font-bold text-2xl block">Felipe Bastos</strong>
-                <span className="text-gray-200 text-sm block">Web Developer Jr.</span>
+                <strong className="font-bold text-2xl block">
+                  Felipe Bastos
+                </strong>
+                <span className="text-gray-200 text-sm block">
+                  Web Developer Jr.
+                </span>
               </div>
             </div>
           </div>
@@ -51,7 +61,18 @@ export function Video() {
             </a>
           </div>
         </div>
-        <div></div>
+        <div className="gap-8 mt-20 grid grid-cols-2">
+          <ComplementaryCard
+            title="Material complementar"
+            content="Acesse o material complementar para acelerar o seu
+            desenvolvimento"
+          />
+          <ComplementaryCard
+            title="Wallpapers exclusivos"
+            content="Baixe wallpapers exclusivos do Ignite Lab e personalize a sua
+                máquina"
+          />
+        </div>
       </div>
     </div>
   );
