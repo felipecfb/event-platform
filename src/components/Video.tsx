@@ -1,16 +1,19 @@
-import {
-  CaretRight,
-  DiscordLogo,
-  FileArrowDown,
-  Lightning,
-} from "phosphor-react";
+import { DefaultUi, Player, Youtube } from "@vime/react";
+import { DiscordLogo, Lightning } from "phosphor-react";
 import { ComplementaryCard } from "./ComplementaryCard";
+
+import "@vime/core/themes/default.css";
 
 export function Video() {
   return (
     <div className="flex-1">
       <div className="bg-black flex justify-center">
-        <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video bg-red-500"></div>
+        <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video bg-red-500">
+          <Player>
+            <Youtube videoId="Exg8YBHB02s" />
+            <DefaultUi />
+          </Player>
+        </div>
       </div>
 
       <div className="p-8 max-w-[1100px] mx-auto">
