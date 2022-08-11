@@ -1,6 +1,6 @@
 # Event Platform
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/felipecfb/event-platform?style=for-the-badge)
 
 ## 🚀 Instalando
 
